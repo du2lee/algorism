@@ -16,7 +16,7 @@ class Heap:
                 return True
             else:
                 return False
-        else:
+        else:   # There're both
             if self.heap_array[left_child_popped_idx] > self.heap_array[right_child_popped_idx]:
                 
                 if self.heap_array[popped_idx] < self.heap_array[left_child_popped_idx]:
